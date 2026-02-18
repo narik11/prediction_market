@@ -1,0 +1,49 @@
+# Compiled Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files (SENSITIVE - NEVER COMMIT!)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Config with credentials (use config.example.json as template)
+config.json
+watchdog_config.json
+
+# Data files
+data/
+*.parquet
+*.csv
+*.json.gz
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+.tmp/
+temp/
