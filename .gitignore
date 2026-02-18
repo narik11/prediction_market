@@ -29,6 +29,9 @@ env/
 config.json
 watchdog_config.json
 
+# Backup source (not part of active codebase)
+bkp_src/
+
 # Data files
 data/
 *.parquet
